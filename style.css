@@ -43,9 +43,9 @@
         background: none;
     }
     
-    .keypad ul input:hover {
+    .keypad ul input:active {
         background-color: rgb(158, 255, 255);
-        transition: all 0.8s;
+        transition: all 1s;
     }
     /*  */
     /* The switch - the box around the slider */
