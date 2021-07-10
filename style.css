@@ -42,7 +42,7 @@
     background: none;
 }
 
-.keypad ul input :hover {
+.keypad ul input:hover {
     background-color: aqua;
     transition: all 0.8s;
 }
