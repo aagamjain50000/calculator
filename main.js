@@ -13,9 +13,8 @@ function solve() {
     b = eval(a);
     txt.value = b
 }
-const aa = txt.value;
 
 function backspace() {
-    aa.pop()
-    console.log(aa)
+    aa = txt.value.slice(0, -1)
+    txt.value = aa;
 }
