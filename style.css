@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+.calc {
+    height: 700px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+}
+
+.txt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 310px;
+    height: 50px;
+    border: none;
+}
+
+.keypad {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.keypad ul {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.keypad ul input {
+    margin-right: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 21px;
+    background: none;
+}
+
+.keypad ul input :hover {
+    background-color: aqua;
+    transition: all 0.8s;
+}
